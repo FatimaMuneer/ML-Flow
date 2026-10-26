@@ -1,0 +1,14 @@
+name: ridge_california_housing
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    parameters:
+      alpha:
+        type: float
+        default: 1.0
+      test_size:
+        type: float
+        default: 0.30
+    command: "python train_ridge.py --alpha {alpha} --test_size {test_size}"

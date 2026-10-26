@@ -1,0 +1,17 @@
+# Virtual environment
+mlflow-env/
+venv/
+ENV/
+
+# MLflow local database & tracking artifacts
+mlflow.db
+mlruns/
+.trash/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*.png
+
+# VS Code configuration
+.vscode/
